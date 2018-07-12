@@ -43,8 +43,7 @@
   "scripts": {
     "prepublish": "make js",
     "postpublish": "make clean",
-    "preinstall": "make js",
-    "postinstall": "make clean"
+    "postinstall": "make js"
   },
   "main": "js/document",
   "browserify": {
