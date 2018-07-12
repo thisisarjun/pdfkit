@@ -42,8 +42,7 @@
   },
   "scripts": {
     "prepublish": "make js",
-    "postpublish": "make clean",
-    "postinstall": "make js"
+    "postpublish": "make clean"
   },
   "main": "js/document",
   "browserify": {
